@@ -5,15 +5,23 @@ body {
 
 .main {
     background-color: #FFFFFF;
-    width: 400px;
-    height: 400px;
-    margin: 7em auto;
-    border-radius: 1.5em;
-    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+    width: 73%;
+    height: 80%;
+    margin: 6.9em auto  ;
+    border-radius: 1.2em;
+    box-shadow: 0px 11px 35px 2px rgba(85, 76, 76, 0.14);
+}
+
+#sign {
+    padding-top: 50px;
+    color: #612d7e;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
 }
 
 .sign {
-    padding-top: 40px;
+    /* padding-top: 50px; */
     color: #8C55AA;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
@@ -21,52 +29,52 @@ body {
 }
 
 .un {
-width: 76%;
-color: rgb(38, 50, 56);
-font-weight: 700;
-font-size: 14px;
-letter-spacing: 1px;
-background: rgba(136, 126, 126, 0.04);
+width: 50%;
+color: rgb(110, 122, 128);
+font-weight: 600;
+font-size: 19px;
+letter-spacing: 1.8px;
+background: rgba(71, 64, 64, 0.04);
 padding: 10px 20px;
 border: none;
-border-radius: 20px;
+border-radius: 18px;
 outline: none;
 box-sizing: border-box;
-border: 2px solid rgba(0, 0, 0, 0.02);
+border: 2px solid rgba(102, 101, 101, 0.02);
 margin-bottom: 50px;
-margin-left: 46px;
+margin-left: 25%;
 text-align: center;
 margin-bottom: 27px;
 font-family: 'Ubuntu', sans-serif;
 }
 
 form.form1 {
-    padding-top: 40px;
+    padding-top: 37.8px;
 }
 
 .pass {
-        width: 76%;
-color: rgb(38, 50, 56);
-font-weight: 700;
-font-size: 14px;
-letter-spacing: 1px;
-background: rgba(136, 126, 126, 0.04);
-padding: 10px 20px;
-border: none;
-border-radius: 20px;
-outline: none;
-box-sizing: border-box;
-border: 2px solid rgba(0, 0, 0, 0.02);
-margin-bottom: 50px;
-margin-left: 46px;
-text-align: center;
-margin-bottom: 27px;
-font-family: 'Ubuntu', sans-serif;
+    width: 50%;
+    color: rgb(110, 122, 128);
+    font-weight: 600;
+    font-size: 19px;
+    letter-spacing: 1.8px;
+    background: rgba(71, 64, 64, 0.04);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 18px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(102, 101, 101, 0.02);
+    margin-bottom: 50px;
+    margin-left: 25%;
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 
 .un:focus, .pass:focus {
-    border: 2px solid rgba(0, 0, 0, 0.18) !important;
+    border: 2px solid rgba(49, 70, 95, 0.18) !important;
     
 }
 
@@ -74,15 +82,15 @@ font-family: 'Ubuntu', sans-serif;
   cursor: pointer;
     border-radius: 5em;
     color: #fff;
-    background: linear-gradient(to right, #9C27B0, #E040FB);
+    background: linear-gradient(to right, #ac91b1, #e02fff);
     border: 0;
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 10px;
     padding-top: 10px;
     font-family: 'Ubuntu', sans-serif;
-    margin-left: 35%;
-    font-size: 13px;
+    margin-left: 44%;
+    font-size: 15px;
     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
 }
 
