@@ -1,5 +1,5 @@
 body {
-    background-color: #F3EBF6;
+    background-color: #d8d8d8;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -14,7 +14,7 @@ body {
 
 #sign {
     padding-top: 50px;
-    color: #612d7e;
+    color: #352d7e;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     font-size: 32px;
@@ -22,7 +22,7 @@ body {
 
 .sign {
     /* padding-top: 50px; */
-    color: #8C55AA;
+    color: #3c64ad;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     font-size: 23px;
@@ -82,7 +82,7 @@ form.form1 {
   cursor: pointer;
     border-radius: 5em;
     color: #fff;
-    background: linear-gradient(to right, #ac91b1, #e02fff);
+    background: linear-gradient(to right, #623db9, #c19ec7);
     border: 0;
     padding-left: 40px;
     padding-right: 40px;
@@ -109,4 +109,4 @@ a {
 @media (max-width: 600px) {
     .main {
         border-radius: 0px;
-    }
+    };
